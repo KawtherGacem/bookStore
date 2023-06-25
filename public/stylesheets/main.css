@@ -1,0 +1,24 @@
+@import 'shared/fonts.css';
+@import 'shared/variables.css';
+@import 'shared/header.css';
+@import 'shared/buttons.css';
+
+:root{
+    font-family: 'Dosis';
+    font-size: 20px;
+    color: var(--color-text-light);
+}
+body{
+    background : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(0,212,255,1) 100%);
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.inner-container{
+    margin: 0 2rem;
+}
